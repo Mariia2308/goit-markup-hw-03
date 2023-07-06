@@ -1,0 +1,171 @@
+/*Styles*/
+
+/* 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+} */
+
+/* main{
+    flex-grow: 1;
+} */
+
+/*Main - Styles*/
+
+
+
+ul {
+    padding: 0;
+    margin: 0;
+  }
+
+  h1,h2,h3,h4,h5,h6{
+    margin: 0;
+  }
+
+  p{
+    margin: 0;
+  }
+  .container {
+    width: 1158px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;}
+
+
+
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+
+/* HEADER */
+
+.header {
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.header-div{
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    gap: 40px;
+}
+
+
+.menu-item {
+    display: block;
+    color: var(--primarydark-color);
+    padding: 24px 0;
+}
+
+.address-list {
+    display: flex;
+    gap: 40px;
+}
+
+
+/* FOOTER */
+
+
+.footer_section{
+    padding: 100px 0;
+    background-color: var(--secondary-color);
+}
+
+/* STUDIO */
+.headbox{
+    padding:188px 0;
+}
+
+.benefits_feature{
+    padding: 120px 0;
+}
+
+.benefits_duties{
+    padding-bottom: 120px;
+}
+
+.margin_duties, .margin_team{
+    margin-bottom: 72px; 
+}
+
+.portfolio_data, .team_data{
+    width: calc((100% - 48px) / 3);
+}
+
+.feature_data{
+    width: calc((100% - 72px) / 4);
+}
+
+.wrapper{
+    padding: 32px 16px;
+    text-align: center;
+}
+
+.feature_item, .team_item{
+    display: flex;
+    gap: 24px; 
+  
+}
+
+/* PORTFOLIO */
+
+.offer{
+    padding: 96px 0 120px 0;
+}
+
+.portfolio_item{
+
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px; 
+    row-gap: 48px;
+
+}
+
+.offer_line{  
+    margin-bottom: 8px;
+}
+
+.wrapper_portfolio{
+    padding: 32px 16px;
+    text-align:left;
+    border: 1px solid #e7e9fc; 
+    border-top: none;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
+}
+
+
+.menu_button_line{
+    display:flex;
+    gap: 24px;
+    /* padding-top: 96px; */
+    margin-bottom: 72px;
+    justify-content: center;
+
+}
+
